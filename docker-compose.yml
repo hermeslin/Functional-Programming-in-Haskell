@@ -1,0 +1,15 @@
+services:
+  hls:
+    image: "haskell-dev:9.6.6-bullseye"
+    ipc: host
+    build:
+      context: .
+      args:
+        - GHC_VERSION=${GHC_VERSION}
+        - CABAL_VERSION=${CABAL_VERSION}
+        - INSTALL_STACK=${INSTALL_STACK}
+        - INSTALL_HLS=${INSTALL_HLS}
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./:/workspace
