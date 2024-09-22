@@ -5,6 +5,8 @@ Exercises prictice within Haskell
 [Functional Programming in Haskell](https://www.youtube.com/playlist?list=PLF1Z-APd9zK7usPMx3LGMZEHrECUGodd3) by [Graham Hutton](https://www.nottingham.ac.uk/computerscience/people/graham.hutton)
 
 ## Installation
+Before build the Docker environment, copy `.env.example` and rename it to `.env`.
+
 To set up the environment using Docker, run the following commands:
 ```
 docker compose build
