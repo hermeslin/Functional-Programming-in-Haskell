@@ -10,7 +10,7 @@ Before build the Docker environment, copy `.env.example` and rename it to `.env`
 To set up the environment using Docker, run the following commands:
 ```
 docker compose build
-dokcer compose up -d
+docker compose up -d
 ```
 
 ## VsCode Remote Container
